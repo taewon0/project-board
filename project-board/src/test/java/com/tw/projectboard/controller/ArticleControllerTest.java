@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @DisplayName("View 컨트롤러 - 게시글")
 @Import(SecurityConfig.class)
-@WebMvcTest(ArticleController.class) //(클래스)를 넣어주면 해당 클래스만 테스트함
+@WebMvcTest(ArticleController.class) //(클래스)를 넣어주면 해당 클래스 대상으로 테스트함
 class ArticleControllerTest {
 
     private final MockMvc mvc;
