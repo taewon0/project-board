@@ -23,3 +23,6 @@ insert into article_comment(article_id, content, created_at, modified_at, create
 (5, 'papago google alphago', '2023-12-12 08:34:23', '2023-12-12 08:34:23', 'amen', 'amen'),
 (5, 'naver never ever', '2023-12-12 08:34:23', '2023-12-12 08:34:23', 'amen', 'amen'),
 (5, 'samsung lg sk hanhwa hyundai', '2023-12-12 08:34:23', '2023-12-12 08:34:23', 'amen', 'amen');
+
+insert into user_account(user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by)
+values ('t1', '1234', 'T1', 't1@mail.com', 'im t1', now(), 't1', now(), 't1');
