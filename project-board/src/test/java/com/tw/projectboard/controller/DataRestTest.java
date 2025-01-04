@@ -70,4 +70,13 @@ public class DataRestTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.valueOf("application/hal+json")));
     }
+
+    @DisplayName("[api] 회원 관련 api는 제공하지 않는다.")
+    @Test
+    void givenNothing_whenRequestingUserAccounts_thenThrowsException() throws Exception {
+        //given
+
+        //when & then
+        mvc.perform(get("/api/userAccounts")).andExpect(status().isNotFound());
+    }
 }
