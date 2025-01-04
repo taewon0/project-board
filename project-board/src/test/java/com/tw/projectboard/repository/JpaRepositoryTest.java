@@ -48,8 +48,9 @@ class JpaRepositoryTest {
     @Test
     void givenTestData_whenInserting_thenWorksFine(){
         //given
+        UserAccount userAccount = UserAccount.of("u1", "pw", "mail", "nick", "mm");
         long previousCount = articleRepository.count();
-        Article article = Article.of("new article", "new content", "#spring");
+        Article article = Article.of(userAccount,"new article", "new content", "#spring");
         //when
         articleRepository.save(article);
         //then
