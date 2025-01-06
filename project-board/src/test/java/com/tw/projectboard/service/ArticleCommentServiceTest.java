@@ -8,7 +8,6 @@ import com.tw.projectboard.dto.UserAccountDto;
 import com.tw.projectboard.repository.ArticleCommentRepository;
 import com.tw.projectboard.repository.ArticleRepository;
 import jakarta.persistence.EntityNotFoundException;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -18,7 +17,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.mockito.BDDMockito.*;
@@ -82,7 +80,7 @@ class ArticleCommentServiceTest {
 
         //then
         then(articleRepository).should().getReferenceById(dto.articleId());
-        then(articleCommentRepository).should().save(any(ArticleComment.class));
+        then(articleCommentRepository).shouldHaveNoInteractions();
 
     }
 
