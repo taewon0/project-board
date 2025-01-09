@@ -65,7 +65,8 @@ class ArticleCommentControllerTest {
         //given
         long articleId = 1L;
         long articleCommentId = 1L;
-        willDoNothing().given(articleCommentService).deleteArticleComment(articleCommentId);
+        String userId = "t1";
+        willDoNothing().given(articleCommentService).deleteArticleComment(articleCommentId, userId);
 
         //when & then
         mvc.perform(
@@ -77,6 +78,6 @@ class ArticleCommentControllerTest {
                 .andExpect(status().is3xxRedirection())
                 .andExpect(view().name("redirect:/articles/" + articleId))
                 .andExpect(redirectedUrl("/articles/" + articleId));
-        then(articleCommentService).should().deleteArticleComment(articleCommentId);
+        then(articleCommentService).should().deleteArticleComment(articleCommentId, userId);
     }
 }
