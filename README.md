@@ -26,4 +26,3 @@ Spring Boot
 
 * QueryDSL
 * Bootstrap
-* 
