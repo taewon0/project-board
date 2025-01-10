@@ -1,6 +1,6 @@
 insert into user_account(user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by)
-values ('t1', '1234', 'T1', 't1@mail.com', 'im t1', now(), 't1', now(), 't1'),
-('t2', '1234', 'T2', 't2@mail.com', 'im t2', now(), 't2', now(), 't2');
+values ('t1', '{noop}1234', 'T1', 't1@mail.com', 'im t1', now(), 't1', now(), 't1'),
+('t2', '{noop}1234', 'T2', 't2@mail.com', 'im t2', now(), 't2', now(), 't2');
 
 insert into article(user_id, title, content, hashtag, created_by, modified_by, created_at, modified_at) values
 ('t2', 'java', 'what is difference with version 17 and 11?', '#java', 'faker', 'faker', '2021-05-23 08:34:54', '2021-05-23 08:35:54'),
