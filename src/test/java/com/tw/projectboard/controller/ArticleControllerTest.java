@@ -36,7 +36,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@Disabled // 강의와 다르게 UserAccountRepository 주입 문제로 모든 테스트 에러 발생. 해당 테스트는 보류한다.
+@Disabled("UserDetailsService 문제로 테스트에서 제외시킴") // 강의와 다르게 UserAccountRepository 주입 문제로 모든 테스트 에러 발생. 해당 테스트는 보류한다.
 @DisplayName("View 컨트롤러 - 게시글")
 @Import({TestSecurityConfig.class, FormDataEncoder.class})
 @WebMvcTest(ArticleController.class) //(클래스)를 넣어주면 해당 클래스 대상으로 테스트함
