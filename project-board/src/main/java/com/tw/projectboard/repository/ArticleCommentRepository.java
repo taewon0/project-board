@@ -4,6 +4,7 @@ import com.querydsl.core.types.dsl.DateTimeExpression;
 import com.querydsl.core.types.dsl.StringExpression;
 import com.tw.projectboard.domain.ArticleComment;
 import com.tw.projectboard.domain.QArticleComment;
+import com.tw.projectboard.domain.UserAccount;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.querydsl.binding.QuerydslBinderCustomizer;
@@ -20,6 +21,7 @@ public interface ArticleCommentRepository extends
 {
 
     List<ArticleComment> findByArticle_Id(Long articleId);
+    void deleteByIdAndUserAccount_UserId(Long articleCommentId, String userId);
     @Override
     default void customize(QuerydslBindings bindings, QArticleComment root){
         bindings.excludeUnlistedProperties(true);
