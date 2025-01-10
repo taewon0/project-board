@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7bfe51c-d441-4265-a51f-967dced6c0ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/ProjectBoardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/ProjectBoardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/config/CustomizeRestMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/config/CustomizeRestMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/config/DataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/config/DataRestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/config/ThymeleafConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/config/ThymeleafConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/controller/ArticleCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/controller/ArticleCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/domain/ArticleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/domain/ArticleComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/domain/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/domain/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/domain/constant/FormStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/domain/constant/FormStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/domain/constant/SearchType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/domain/constant/SearchType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/ArticleCommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/ArticleCommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/ArticleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/ArticleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/ArticleWithCommentsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/ArticleWithCommentsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/UserAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/UserAccountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/request/ArticleCommentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/request/ArticleCommentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/request/ArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/request/ArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/response/ArticleCommentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/response/ArticleCommentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/response/ArticleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/response/ArticleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/response/ArticleWithCommentsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/response/ArticleWithCommentsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/dto/security/BoardPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/dto/security/BoardPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/repository/ArticleCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/repository/UserAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/repository/UserAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/repository/querydsl/ArticleRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/repository/querydsl/ArticleRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/repository/querydsl/ArticleRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/repository/querydsl/ArticleRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/service/ArticleCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/service/ArticleCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/projectboard/service/PaginationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tw/projectboard/service/PaginationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/articles/table-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/static/css/articles/table-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/search-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/static/css/search-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/detail.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/form.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/form.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/index.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/search-hashtag.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/search-hashtag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/search-hashtag.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/articles/search-hashtag.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/header.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/ProjectBoardApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/ProjectBoardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/config/TestSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/config/TestSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/controller/ArticleCommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/controller/ArticleCommentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/controller/ArticleControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/controller/AuthControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/controller/DataRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/controller/DataRestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/controller/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/controller/MainControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/repository/JpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/repository/JpaRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/service/ArticleCommentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/service/ArticleCommentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/service/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/service/ArticleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/service/PaginationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/service/PaginationServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/util/FormDataEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/util/FormDataEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/projectboard/util/FormDataEncoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tw/projectboard/util/FormDataEncoderTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project-board" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project-board" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project-board" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project-board" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="project-board" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.jpb.JpaRepository" />
+        <option value="Enum" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="com.haulmont.jpb.NewRecord" />
+        <option value="JUnit5 Test Class" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2qbF46XWW9BChtYZfJXSuSjoUXL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DtoCreateDialog.USE_JAVA_RECORDS_INITIAL_PROP_KEY&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev2025_1/project-board/project-board/src/main/resources/templates/articles&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.dtoDeclaration&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;21a0b134ab803e0fda52b04658bb3d83&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev2025_1\project-board\project-board\src\main\resources\templates\articles" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev2025_1\project-board\project-board\src\main\resources\templates" />
+      <recent name="C:\dev2025_1\project-board\project-board\src\main\resources\templates\articles" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tw.projectboard.controller" />
+      <recent name="com.tw.projectboard.service" />
+      <recent name="com.tw.projectboard.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tw.projectboard.dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProjectBoardApplication">
+    <configuration name="ArticleCommentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.projectboard.service.ArticleCommentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.projectboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.projectboard.controller.ArticleControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.projectboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.projectboard.controller.ArticleControllerTest" />
+      <option name="METHOD_NAME" value="givenNothing_whenRequestingArticlesView_thenReturnArticlesView" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.projectboard.service.ArticleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceTest.givenModifiedArticleInfo_whenUpdatingArticle_thenUpdatesArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.projectboard.service.ArticleServiceTest" />
+      <option name="METHOD_NAME" value="givenModifiedArticleInfo_whenUpdatingArticle_thenUpdatesArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-board.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tw.projectboard.ProjectBoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArticleCommentServiceTest" />
+        <item itemvalue="JUnit.ArticleServiceTest.givenModifiedArticleInfo_whenUpdatingArticle_thenUpdatesArticle" />
+        <item itemvalue="JUnit.ArticleServiceTest" />
+        <item itemvalue="JUnit.ArticleControllerTest.givenNothing_whenRequestingArticlesView_thenReturnArticlesView" />
+        <item itemvalue="JUnit.ArticleControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7bfe51c-d441-4265-a51f-967dced6c0ed" name="Changes" comment="" />
+      <created>1734923175704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734923175704</updated>
+      <workItem from="1734923176435" duration="4205000" />
+      <workItem from="1734933654427" duration="11748000" />
+      <workItem from="1735107198611" duration="789000" />
+      <workItem from="1735183276762" duration="6248000" />
+      <workItem from="1735195515539" duration="7022000" />
+      <workItem from="1735291971346" duration="4065000" />
+      <workItem from="1735442933725" duration="6845000" />
+      <workItem from="1735452424005" duration="992000" />
+      <workItem from="1735453432450" duration="1445000" />
+      <workItem from="1735454894870" duration="9154000" />
+      <workItem from="1735532851349" duration="13771000" />
+      <workItem from="1735965263613" duration="10975000" />
+      <workItem from="1736045396169" duration="14542000" />
+      <workItem from="1736134672267" duration="11464000" />
+      <workItem from="1736315971230" duration="7031000" />
+      <workItem from="1736391289106" duration="17485000" />
+      <workItem from="1736489431004" duration="4279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
