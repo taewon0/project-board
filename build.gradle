@@ -27,7 +27,11 @@ dependencies {
     //db
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     runtimeOnly 'com.h2database:h2'
-    runtimeOnly 'com.mysql:mysql-connector-j'
+    //runtimeOnly 'com.mysql:mysql-connector-j'
+
+    // mariadb
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+
     //data rest
     implementation 'org.springframework.boot:spring-boot-starter-data-rest'
     implementation 'org.springframework.data:spring-data-rest-hal-explorer'
